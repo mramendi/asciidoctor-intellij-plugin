@@ -1,11 +1,12 @@
 <idea-plugin version="2" url="https://github.com/asciidoctor/asciidoctor-intellij-plugin">
   <id>org.asciidoctor.intellij.asciidoc</id>
   <name>AsciiDoc</name>
-  <version>0.20.6</version>
+  <version>0.20.6.1</version>
   <vendor email="erik.pragt@jworks.nl" url="http://asciidoctor.org">Asciidoctor Project</vendor>
 
   <description><![CDATA[
       <p><a href="http://www.methods.co.nz/asciidoc/">AsciiDoc</a> language support for IntelliJ platform.<p>
+      PROOF-OF-CONCEPT image directory modification by Misha Ramenik. imagesdir=/opt/asciidoc-images<p>
       <p>AsciiDoc is a text document format, similar to formats like Markdown, for writing notes, documentation, articles,
       books, ebooks, slideshows, web pages, man pages and blogs. AsciiDoc files can be translated to many formats
       including HTML, PDF, EPUB, man page. AsciiDoc is, in contrast to Markdown, highly configurable: both the AsciiDoc

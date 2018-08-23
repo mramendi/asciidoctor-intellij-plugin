@@ -126,7 +126,7 @@ public class AsciiDoc {
   private Map<String, Object> getDefaultOptions() {
     Attributes attrs = AttributesBuilder.attributes().showTitle(true)
       .sourceHighlighter("coderay").attribute("coderay-css", "style")
-      .attribute("env", "idea").attribute("env-idea").get();
+      .attribute("env", "idea").attribute("env-idea").attribute("imagesdir","/opt/asciidoc-images").get();
 
     if (imagesPath != null) {
       final AsciiDocApplicationSettings settings = AsciiDocApplicationSettings.getInstance();
